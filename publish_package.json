@@ -1,0 +1,14 @@
+{
+  "topic": "Types of APIs (REST, GraphQL, SOAP, WebSockets)",
+  "narrative_arc": "Manual Creation",
+  "caption": "Every software engineer needs to know this... 👇\n\nAPIs are the glue of the modern internet. But not all APIs are created equal. Are you still using REST for everything? \n\nHere is a quick breakdown:\n👉 REST: Good for standard CRUD ops.\n👉 GraphQL: Perfect for fetching exactly what you need (no over-fetching!).\n👉 SOAP: The old reliable for high-security enterprise apps.\n👉 WebSockets: Essential for real-time chat and trading apps.\n\nStop defaulting to REST when GraphQL or WebSockets might be better for your architecture.\n\nWhich API style do you use the most in your current project? Let me know below! 👇\n",
+  "hashtags": [
+    "#api",
+    "#restapi",
+    "#graphql",
+    "#softwareengineering",
+    "#coding",
+    "#webdevelopment",
+    "#backenddeveloper"
+  ]
+}

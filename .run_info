@@ -1,0 +1,12 @@
+{
+  "topic": "Understanding Kubernetes Architecture",
+  "run_id": "run_20260703_143214",
+  "personality": {
+    "topic": "Understanding Kubernetes Architecture",
+    "arc_id": "explainer",
+    "style_id": "technical",
+    "seed": "033d18bd",
+    "personality_hash": "3645a46f96f5"
+  },
+  "started_at": "2026-07-03T14:32:14.103604"
+}
