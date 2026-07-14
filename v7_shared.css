@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+/* V7 Global Architecture */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    width: 1080px; 
+    height: 1350px; /* 4:5 Instagram Standard */
+    overflow: hidden; 
+    font-family: 'Inter', sans-serif; 
+    background: #0F0F13; /* OLED safe dark (V6 rule) */
+    position: relative; 
+    color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* V6 Strict Color Palette + V5 Glassmorphism */
+:root {
+    --bg-canvas: #0F0F13;
+    --bg-surface: #1A1A1E;
+    --border-dim: #2D2D35;
+    
+    --accent-teal: #00E5CC;
+    --accent-teal-dim: rgba(0, 229, 204, 0.15);
+    
+    --highlight-orange: #FF6B35;
+    --highlight-orange-dim: rgba(255, 107, 53, 0.15);
+    
+    --text-main: #F0F0F0;
+    --text-muted: #A0A0A0;
+    --text-source: #4A4A52;
+}
+
+/* V6 1.5x Typography Scale */
+h1 { font-size: 110px; font-weight: 900; line-height: 0.9; letter-spacing: -3px; }
+h2 { font-size: 72px; font-weight: 800; line-height: 1.1; letter-spacing: -2px; }
+h3 { font-size: 48px; font-weight: 700; line-height: 1.2; letter-spacing: -1px; }
+p.body-large { font-size: 32px; font-weight: 500; line-height: 1.5; color: var(--text-muted); }
+p.body-base { font-size: 22px; font-weight: 400; line-height: 1.6; color: var(--text-muted); }
+
+/* Unified Backgrounds */
+.topo-bg { 
+    position: absolute; inset: 0; 
+    background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px); 
+    background-size: 12px 12px; 
+    opacity: 0.5; 
+    z-index: 1;
+}
+
+/* Base Layout Wrapper */
+.layout-wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 100px 80px 120px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Eyebrow / Slide Number */
+.eyebrow-container { margin-bottom: 40px; }
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--accent-teal);
+}
+.eyebrow::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: var(--accent-teal);
+    border-radius: 2px;
+}
+
+/* Citation Source (V6 Credibility Rule) */
+.source-citation {
+    position: absolute;
+    bottom: 120px;
+    right: 80px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-source);
+    z-index: 20;
+}
+
+/* Brand Footer (Always bottom center) */
+.brand-footer {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    z-index: 20;
+}
+.brand-logo { font-size: 18px; font-weight: 900; color: #fff; letter-spacing: 2px; }
+.slide-count { font-size: 16px; font-weight: 700; color: var(--text-source); letter-spacing: 3px; }
+
+/* V5 Glass Card System */
+.glass-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+    border-radius: 32px;
+    padding: 48px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4), inset 0 2px 4px rgba(255,255,255,0.03);
+    position: relative;
+    overflow: hidden;
+}
