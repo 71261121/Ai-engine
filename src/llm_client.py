@@ -178,6 +178,92 @@ class LLMClient:
             }
             return {"content": json.dumps(data)}
 
+        # Writer Agent V7 Simulation
+        if "v7-quality" in pr_str or "v7" in sys_str or "bento" in pr_str:
+            match = re.search(r'topic:\s*"([^"]+)"', prompt, re.IGNORECASE)
+            topic = match.group(1) if match else "Modern Systems Engineering"
+            data = {
+                "eyebrow_tags": ["ARCHITECTURE 101", "PRODUCTION BLUEPRINT"],
+                "slides": [
+                    {
+                        "layout": "hero",
+                        "eyebrow": "ARCHITECTURE 101",
+                        "headline_top": "TYPES OF",
+                        "headline_accent": "APIs.",
+                        "subtitle": f"A deep technical breakdown of {topic} and the 6 most important patterns you need to know in 2026."
+                    },
+                    {
+                        "layout": "bento",
+                        "eyebrow": "Visual Volume",
+                        "headline": "The Baseline has",
+                        "headline_accent": "Shifted.",
+                        "main_stat": "34M+",
+                        "main_label": "DAILY AI OUTPUT",
+                        "main_desc": "Images and API requests processed across major platforms every 24 hours.",
+                        "stat2_value": "71%",
+                        "stat2_label": "of feed data is now synthetic.",
+                        "stat3_value": "-70%",
+                        "stat3_label": "Reduction in latency.",
+                        "insight_icon": "⚡",
+                        "insight_text": "The barrier to entry isn't creation anymore—it is <strong>decoupled architectural differentiation.</strong>",
+                        "source": "Gartner Engineering Trends, 2026"
+                    },
+                    {
+                        "layout": "flowchart",
+                        "eyebrow": "The Multiplier",
+                        "headline": "The Human-in-the-Loop",
+                        "headline_accent": "Premium",
+                        "nodes": [
+                            {"text": "Isolate State", "active": False},
+                            {"text": "Asynchronous Streams", "active": True},
+                            {"text": "Continuous Telemetry", "active": False}
+                        ],
+                        "badge_value": "+372%",
+                        "badge_label": "Median ROI Boost",
+                        "source": "HBR Systems Analytics, 2026"
+                    },
+                    {
+                        "layout": "split",
+                        "eyebrow": "The Performance Scale",
+                        "headline": "Hyper-Targeting",
+                        "headline_accent": "Scale.",
+                        "body_text": "Traditional architectures force synchronous state blocking across every boundary. Decoupled systems publish events and immediately release threads.",
+                        "stat_value": "+202%",
+                        "stat_label": "Higher Throughput",
+                        "insight_text": "Strategic decoupling with <strong>exponential backoff</strong> circuits prevents cascading outages under high load.",
+                        "source": "State of DevOps Report, 2026"
+                    },
+                    {
+                        "layout": "grid",
+                        "eyebrow": "Core Pillars",
+                        "headline": "The 4 Architecture",
+                        "headline_accent": "Commandments",
+                        "panel1_title": "Idempotent Operations",
+                        "panel1_text": "Ensure repeated network requests never create duplicate state records across databases.",
+                        "panel2_title": "Dead-Letter Queues",
+                        "panel2_text": "Isolate poisoned payloads automatically without stopping continuous stream processing.",
+                        "panel3_title": "Circuit Breakers",
+                        "panel3_text": "Fail fast during upstream degradation to preserve core transaction throughput.",
+                        "panel4_title": "p99 Observability",
+                        "panel4_text": "Track tail latency across distributed agent boundaries in real time.",
+                        "source": "Production Engineering Standards, 2026"
+                    },
+                    {
+                        "layout": "outro",
+                        "eyebrow": "THE BOTTOM LINE",
+                        "headline": "Key Architectural Insight",
+                        "items": [
+                            {"text": "Start with REST APIs for standard CRUD workloads."},
+                            {"text": "Move to GraphQL when optimizing mobile payload sizes."},
+                            {"text": "Use WebSockets only when real-time updates are mandatory."}
+                        ],
+                        "cta_text": "SAVE THIS CHEAT SHEET.",
+                        "cta_highlight": "You'll need these architectural insights for your next systems design interview."
+                    }
+                ]
+            }
+            return {"content": json.dumps(data)}
+
         # Narrative / Writer Agent Simulation
         if "narrative" in sys_str or "carousel" in pr_str or "slide" in pr_str:
             match = re.search(r'topic:\s*"([^"]+)"', prompt, re.IGNORECASE)

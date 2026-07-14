@@ -9,3 +9,5 @@ venv/
 
 outputs/db/*.db*
 *.log
+node_modules/
+test_*
