@@ -1,12 +1,14 @@
-﻿import json
+import json
 import sqlite3
 import shutil
 from pathlib import Path
 
-vault_dir = Path(r"C:\Users\mdsal\OneDrive\Desktop\AI_Carousel_Engine\03_The_Vault")
+_root = Path(__file__).resolve().parent.parent
+vault_dir = _root / "outputs" / "runs"
 legacy_dir = vault_dir / "published_archive" / "legacy_manual_posts"
 ready_dir = vault_dir / "ready_to_upload"
-db_path = Path(r"C:\Users\mdsal\OneDrive\Desktop\AI_Carousel_Engine\02_The_Factory\content_state.db")
+db_path = _root / "outputs" / "db" / "content_state.db"
+db_path.parent.mkdir(parents=True, exist_ok=True)
 
 posts_data = {
     "Post_001_Types_Of_APIs": {

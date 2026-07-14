@@ -1,14 +1,42 @@
 {
-  "topic": "Types of APIs (REST, GraphQL, SOAP, WebSockets)",
-  "narrative_arc": "Manual Creation",
-  "caption": "Every software engineer needs to know this... 👇\n\nAPIs are the glue of the modern internet. But not all APIs are created equal. Are you still using REST for everything? \n\nHere is a quick breakdown:\n👉 REST: Good for standard CRUD ops.\n👉 GraphQL: Perfect for fetching exactly what you need (no over-fetching!).\n👉 SOAP: The old reliable for high-security enterprise apps.\n👉 WebSockets: Essential for real-time chat and trading apps.\n\nStop defaulting to REST when GraphQL or WebSockets might be better for your architecture.\n\nWhich API style do you use the most in your current project? Let me know below! 👇\n",
-  "hashtags": [
-    "#api",
-    "#restapi",
-    "#graphql",
-    "#softwareengineering",
-    "#coding",
-    "#webdevelopment",
-    "#backenddeveloper"
+  "version": "v12.0_masterpiece",
+  "run_id": "run_v12_1784030333",
+  "topic": "Why AI Agents Are Replacing Standard SaaS in 2026",
+  "arc_id": "explainer",
+  "topic_dna": {
+    "topic": "Why AI Agents Are Replacing Standard SaaS in 2026",
+    "category": "ai_engineering",
+    "tone": "forward-looking, technical, and analytical",
+    "visual_metaphor": {
+      "core": "neural decision trees, autonomous loop circuits, and dynamic data matrices",
+      "elements": [
+        "synapse nodes",
+        "feedback loops",
+        "vector arrays",
+        "agent pipelines"
+      ]
+    },
+    "color_language": {
+      "background": "#0F0F13",
+      "primary": "#00E5CC",
+      "accent": "#FF4B4B",
+      "text": "#FFFFFF",
+      "subtext": "#B0B0B0"
+    },
+    "key_insight": "Autonomous systems require robust control loops, not just raw model intelligence."
+  },
+  "slide_count": 6,
+  "total_time_s": 0.0,
+  "final_score": 7.5,
+  "verdict": "STRONG",
+  "caption": "",
+  "hashtags": [],
+  "generated_files": [
+    "slide_01.html",
+    "slide_02.html",
+    "slide_03.html",
+    "slide_04.html",
+    "slide_05.html",
+    "slide_06.html"
   ]
 }

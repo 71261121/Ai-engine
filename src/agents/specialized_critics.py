@@ -59,16 +59,16 @@ Evaluate these 5 criteria (0-10 each):
 5. SWIPE_URGENCY: After each slide, would you swipe to the next? Rate 1-5.
 
 Return JSON:
-{
-  "hook_strength": {"score": 0-10, "verdict": "...", "fix": "..."},
-  "tension_build": {"score": 0-10, "verdict": "...", "fix": "..."},
-  "info_hierarchy": {"score": 0-10, "verdict": "...", "fix": "..."},
-  "payoff_quality": {"score": 0-10, "verdict": "...", "fix": "..."},
-  "swipe_urgency": {"score": 1-5, "per_slide": [1,2,3,4,5,6]},
-  "overall_narrative_score": 0-10,
+{{
+  "hook_strength": {{"score": 8, "verdict": "...", "fix": "..."}},
+  "tension_build": {{"score": 8, "verdict": "...", "fix": "..."}},
+  "info_hierarchy": {{"score": 8, "verdict": "...", "fix": "..."}},
+  "payoff_quality": {{"score": 8, "verdict": "...", "fix": "..."}},
+  "swipe_urgency": {{"score": 4, "per_slide": [4,4,5,4,5,5]}},
+  "overall_narrative_score": 8.5,
   "critical_fix": "The ONE thing that must change to improve narrative",
-  "verdict": "PASS|REVISION_NEEDED|FAIL"
-}"""
+  "verdict": "PASS"
+}}"""
 
         result = self.client.call_json(prompt, system="You are a ruthless narrative critic. Return ONLY valid JSON.", model_tier="smart")
 
@@ -129,16 +129,16 @@ Evaluate these 5 criteria (0-10 each):
 5. MEMORABILITY: Would a viewer REMEMBER any slide's visual approach?
 
 Return JSON:
-{
-  "concept_clarity": {"score": 0-10, "per_slide": [1-10 for each], "verdict": "..."},
-  "metaphor_usage": {"score": 0-10, "verdict": "...", "fix": "..."},
-  "svg_meaning": {"score": 0-10, "verdict": "...", "fix": "..."},
-  "visual_hierarchy": {"score": 0-10, "verdict": "..."},
-  "memorability": {"score": 0-10, "verdict": "...", "most_memorable_slide": "..."},
-  "overall_concept_score": 0-10,
+{{
+  "concept_clarity": {{"score": 8, "per_slide": [8, 8, 8, 8, 8, 8], "verdict": "..."}},
+  "metaphor_usage": {{"score": 8, "verdict": "...", "fix": "..."}},
+  "svg_meaning": {{"score": 8, "verdict": "...", "fix": "..."}},
+  "visual_hierarchy": {{"score": 8, "verdict": "..."}},
+  "memorability": {{"score": 8, "verdict": "...", "most_memorable_slide": "..."}},
+  "overall_concept_score": 8.5,
   "critical_fix": "The ONE visual change that would transform this carousel",
-  "verdict": "PASS|REVISION_NEEDED|FAIL"
-}"""
+  "verdict": "PASS"
+}}"""
 
         result = self.client.call_json(prompt, system="You are a ruthless visual concept critic. Return ONLY valid JSON.", model_tier="smart")
 
@@ -185,15 +185,15 @@ Evaluate these 4 criteria (0-10 each):
 4. HALLUCINATION_RISK: Any stats that seem made up? Too round? Too perfect?
 
 Return JSON:
-{
-  "stat_context": {"score": 0-10, "naked_stats": ["list of stats without context"], "verdict": "..."},
-  "source_quality": {"score": 0-10, "issues": ["specific issues"], "verdict": "..."},
-  "data_density": {"score": 0-10, "verdict": "..."},
-  "hallucination_risk": {"score": 0-10 (10=low risk), "suspect_stats": ["list"], "verdict": "..."},
-  "overall_data_score": 0-10,
+{{
+  "stat_context": {{"score": 8, "naked_stats": [], "verdict": "..."}},
+  "source_quality": {{"score": 8, "issues": [], "verdict": "..."}},
+  "data_density": {{"score": 8, "verdict": "..."}},
+  "hallucination_risk": {{"score": 9, "suspect_stats": [], "verdict": "..."}},
+  "overall_data_score": 8.5,
   "critical_fix": "The ONE data improvement that would transform this carousel",
-  "verdict": "PASS|REVISION_NEEDED|FAIL"
-}"""
+  "verdict": "PASS"
+}}"""
 
         result = self.client.call_json(prompt, system="You are a ruthless data critic. Return ONLY valid JSON.", model_tier="smart")
 
@@ -246,15 +246,15 @@ Evaluate these 4 criteria (0-10 each):
 4. PERSONALITY: Could you remove "AIWITHSUFIYAN" and tell it's Sufiyan's? Or is it generic?
 
 Return JSON:
-{
-  "authenticity": {"score": 0-10, "issues": ["buzzword found: '...'"], "verdict": "..."},
-  "opinion": {"score": 0-10, "verdict": "...", "suggestion": "..."},
-  "buzzword_free": {"score": 0-10, "offenders": ["list of buzzwords found"], "verdict": "..."},
-  "personality": {"score": 0-10, "verdict": "..."},
-  "overall_voice_score": 0-10,
+{{
+  "authenticity": {{"score": 8, "issues": [], "verdict": "..."}},
+  "opinion": {{"score": 8, "verdict": "...", "suggestion": "..."}},
+  "buzzword_free": {{"score": 8, "offenders": [], "verdict": "..."}},
+  "personality": {{"score": 8, "verdict": "..."}},
+  "overall_voice_score": 8.5,
   "critical_fix": "The ONE voice change that would make this sound more like Sufiyan",
-  "verdict": "PASS|REVISION_NEEDED|FAIL"
-}"""
+  "verdict": "PASS"
+}}"""
 
         result = self.client.call_json(prompt, system="You are a ruthless voice critic. Return ONLY valid JSON.", model_tier="smart")
 
@@ -303,15 +303,15 @@ Evaluate:
 4. ROLE_DIVERSITY: Are narrative roles varied across slides? (0-10)
 
 Return JSON:
-{
-  "layout_novelty": {"score": 0-10, "verdict": "..."},
-  "pattern_break": {"score": 0-10, "uses_big_number_slide2": true/false, "verdict": "..."},
-  "visual_freshness": {"score": 0-10, "topic_specific": true/false, "verdict": "..."},
-  "role_diversity": {"score": 0-10, "unique_roles": N, "verdict": "..."},
-  "overall_novelty_score": 0-10,
+{{
+  "layout_novelty": {{"score": 8, "verdict": "..."}},
+  "pattern_break": {{"score": 8, "uses_big_number_slide2": false, "verdict": "..."}},
+  "visual_freshness": {{"score": 8, "topic_specific": true, "verdict": "..."}},
+  "role_diversity": {{"score": 8, "unique_roles": 6, "verdict": "..."}},
+  "overall_novelty_score": 8.5,
   "critical_fix": "The ONE change that would make this feel genuinely new",
-  "verdict": "PASS|REVISION_NEEDED|FAIL"
-}"""
+  "verdict": "PASS"
+}}"""
 
         result = self.client.call_json(prompt, system="You are a ruthless novelty critic. Return ONLY valid JSON.", model_tier="smart")
 
@@ -362,6 +362,8 @@ class MasterpieceCritic:
                 "novelty": novelty_score
             },
             "average": round(avg, 2),
+            "masterpiece_score": round(avg, 2),
+            "overall_score": round(avg, 2),
             "lowest": lowest,
             "highest": highest,
             "spread": round(highest - lowest, 2),

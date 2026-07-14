@@ -1,0 +1,82 @@
+
+system:
+  name: "AIWITHSUFIYAN Level 10"
+  version: "10.0.0"
+  mode: "autonomous"
+
+llm:
+  provider: "litellm"
+  models:
+    strong: "nvidia/nemotron-3-ultra"
+    fast: "deepseek/deepseek-v3"
+    vision: "nvidia/nemotron-3-ultra"
+  temperature:
+    generation: 0.7
+    evaluation: 0.2
+    evolution: 0.8
+  max_tokens: 4096
+  budget:
+    research_attempts: 3
+    idea_generation: 20
+    hook_attempts: 5
+    narrative_attempts: 5
+    design_attempts: 5
+
+instagram:
+  api_version: "v21.0"
+  max_slides: 10
+  optimal_slides: 8
+  dimensions: "1080x1350"
+  best_post_times_utc: ["18:00", "20:00", "12:00"]
+  compliance:
+    max_ai_percentage: 70
+    disclosure_threshold: 50
+
+quality_gates:
+  min_save_rate_prediction: 0.035
+  min_share_rate_prediction: 0.015
+  min_completion_rate: 0.70
+  min_aesthetic_score: 75
+  min_scannability_score: 80
+  max_visual_entropy: 0.65
+
+evolution:
+  population_size: 20
+  tournament_rounds: 3
+  mutation_rate: 0.3
+  crossover_rate: 0.7
+  generations_per_run: 5
+
+memory:
+  experience_db_path: "data/experience_db/experiences.jsonl"
+  visual_library_path: "data/visual_library"
+  design_genome_path: "data/design_genome"
+  prompt_evolution_path: "data/prompt_evolution"
+  max_experiences: 10000
+
+trend_discovery:
+  sources: ["twitter", "linkedin", "reddit", "instagram", "youtube"]
+  update_interval_hours: 6
+  min_trend_score: 0.6
+  fusion_weights:
+    twitter: 0.25
+    linkedin: 0.20
+    reddit: 0.20
+    instagram: 0.20
+    youtube: 0.15
+
+meta_loop:
+  learning_window_days: 30
+  min_samples_for_learning: 50
+  adaptation_triggers:
+    engagement_drop_pct: 10
+    quality_stagnation_days: 14
+
+publishing:
+  hashtag_optimizer: true
+  caption_optimizer: true
+  thumbnail_optimizer: true
+  first_comment_ab_test: true
+  retry_scheduler:
+    max_retries: 3
+    backoff_minutes: [5, 15, 60]

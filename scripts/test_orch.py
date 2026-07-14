@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-"""Root Entrypoint Wrapper for Orchestrator Test."""
 import sys
 from pathlib import Path
 
-_project_root = Path(__file__).resolve().parent
-if str(_project_root) not in sys.path:
-    sys.path.insert(0, str(_project_root))
+# Add project root to path
+sys.stdout.reconfigure(encoding='utf-8')
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.graph.orchestrator_v10 import V10Orchestrator
 
@@ -14,7 +12,9 @@ if __name__ == "__main__":
     orch = V10Orchestrator()
     print("Orchestrator initialized. Running...", flush=True)
     try:
-        res = orch.run(topic="Testing AI Workflows", run_id="run_test")
+        res = orch.run(topic="Testing AI Workflows", run_id="run_20260706_test")
         print("Run complete!", flush=True)
     except Exception as e:
         print(f"Error during run: {e}", flush=True)
+        import traceback
+        traceback.print_exc()
