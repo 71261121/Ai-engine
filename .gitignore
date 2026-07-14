@@ -6,6 +6,6 @@ __pycache__/
 env/
 venv/
 .venv/
-outputs/runs/run_*
+
 outputs/db/*.db*
 *.log
