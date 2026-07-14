@@ -14,7 +14,8 @@ DEFAULT_TOPICS = [
     "Why AI Agents Are Replacing Standard SaaS in 2026",
     "How to Design Idempotent Microservice Boundaries",
     "The 5 SQL Anti-Patterns Killing Your Database Performance",
-    "Understanding Kubernetes Architecture Like a Senior Dev"
+    "Understanding Kubernetes Architecture Like a Senior Dev",
+    "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026"
 ]
 
 

@@ -1,0 +1,84 @@
+{
+  "topic": "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026",
+  "version": "v100.0_v7_v11_god_tier",
+  "topic_dna": {
+    "topic": "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026",
+    "category": "data_systems",
+    "tone": "rigorous, data-centric, and performance-focused",
+    "visual_metaphor": {
+      "core": "high-throughput relational tables, stream channels, and storage silos",
+      "elements": [
+        "table indices",
+        "stream pipes",
+        "aggregation blocks",
+        "partition keys"
+      ]
+    },
+    "color_language": {
+      "background": "#111827",
+      "primary": "#10B981",
+      "accent": "#6366F1",
+      "text": "#FFFFFF",
+      "subtext": "#D1D5DB"
+    },
+    "key_insight": "Data architecture scales cleanly only when schemas and partition strategies align."
+  },
+  "archetype_used": "cyber_dark",
+  "slides": [
+    {
+      "layout": "hero",
+      "narrative_role": "Hook & Problem Setup",
+      "headline": "Modern Tech Architecture is Broken.",
+      "subtitle": "Why 80% of engineers struggle with production implementation—and the exact blueprint to fix it."
+    },
+    {
+      "layout": "stat_highlight",
+      "narrative_role": "Data Shock / Credibility",
+      "headline": "The 73% Reality Check",
+      "main_stat": "73%",
+      "stat_label": "of systems experience silent bottlenecks within 6 months of deployment.",
+      "subtitle": "Here is what happens under the hood."
+    },
+    {
+      "layout": "concept_deepdive",
+      "narrative_role": "Core Concept Breakdown",
+      "headline": "The 3 Pillars of Architecture",
+      "subtitle": "Stop treating symptoms. Focus on decoupling state, asynchronous boundaries, and idempotent processing."
+    },
+    {
+      "layout": "process_detail",
+      "narrative_role": "Step-by-Step Solution",
+      "headline": "The Execution Flow",
+      "subtitle": "Step 1: Isolate data boundaries. Step 2: Implement dead-letter queues. Step 3: Enable continuous observability."
+    },
+    {
+      "layout": "comparative_text",
+      "narrative_role": "Before vs After Comparison",
+      "headline": "Amateur vs Pro Approach",
+      "left_col": "Amateur: Tight coupling, synchronous blocking, manual retry logic.",
+      "right_col": "Pro: Event-driven triggers, exponential backoff, automated circuit breakers."
+    },
+    {
+      "layout": "cta_classic",
+      "narrative_role": "Call to Action",
+      "headline": "Master Production Systems",
+      "subtitle": "Save this carousel for your next architectural review. Follow @AIWITHSUFIYAN for daily engineering insights."
+    }
+  ],
+  "slide_files": [
+    "slide_01.html",
+    "slide_02.html",
+    "slide_03.html",
+    "slide_04.html",
+    "slide_05.html",
+    "slide_06.html"
+  ],
+  "png_files": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png",
+    "slide_05.png",
+    "slide_06.png"
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "version": "v100.0_masterpiece_god_tier",
-  "run_id": "run_v100_1784035113",
-  "topic": "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026",
-  "archetype_used": "cyber_dark",
+  "run_id": "run_v100_1784035112",
+  "topic": "Understanding Kubernetes Architecture Like a Senior Dev",
+  "archetype_used": "infrastructure_blue",
   "winner_hook": {
     "id": 1,
     "axis": "CONTRARIAN_MYTHBUSTER",
-    "hook": "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026 is Broken in Production.",
+    "hook": "Understanding Kubernetes Architecture Like a Senior Dev is Broken in Production.",
     "subtitle": "Why 80% of engineers struggle with Day-2 operations—and the exact 4-step blueprint to fix it.",
-    "score": 87,
+    "score": 92,
     "reasoning": "Maximized curiosity gap and specific metrics under 85 characters (CONTRARIAN_MYTHBUSTER)"
   },
   "slide_count": 6,
@@ -19,7 +19,7 @@
   "caption": "",
   "hashtags": [],
   "omni_assets": {
-    "linkedin_pdf": "apache_kafka_vs_rabbitmq:_which_eve_carousel.pdf",
+    "linkedin_pdf": "understanding_kubernetes_architectu_carousel.pdf",
     "article_md": "article.md"
   },
   "slide_files": [
@@ -47,7 +47,7 @@
       {
         "slide_num": 1,
         "file": "slide_01.png",
-        "size_kb": 241.5,
+        "size_kb": 262.7,
         "slide_vision_score": 98,
         "thumb_stop_rating": "EXCELLENT",
         "contrast_ratio": "14.2:1 (AAA Pass)",
@@ -56,7 +56,7 @@
       {
         "slide_num": 2,
         "file": "slide_02.png",
-        "size_kb": 110.1,
+        "size_kb": 123.0,
         "slide_vision_score": 92,
         "thumb_stop_rating": "EXCELLENT",
         "contrast_ratio": "14.2:1 (AAA Pass)",
@@ -65,7 +65,7 @@
       {
         "slide_num": 3,
         "file": "slide_03.png",
-        "size_kb": 116.6,
+        "size_kb": 129.0,
         "slide_vision_score": 92,
         "thumb_stop_rating": "EXCELLENT",
         "contrast_ratio": "14.2:1 (AAA Pass)",
@@ -74,7 +74,7 @@
       {
         "slide_num": 4,
         "file": "slide_04.png",
-        "size_kb": 171.0,
+        "size_kb": 183.5,
         "slide_vision_score": 92,
         "thumb_stop_rating": "EXCELLENT",
         "contrast_ratio": "14.2:1 (AAA Pass)",
@@ -83,7 +83,7 @@
       {
         "slide_num": 5,
         "file": "slide_05.png",
-        "size_kb": 103.4,
+        "size_kb": 116.5,
         "slide_vision_score": 92,
         "thumb_stop_rating": "EXCELLENT",
         "contrast_ratio": "14.2:1 (AAA Pass)",
@@ -92,7 +92,7 @@
       {
         "slide_num": 6,
         "file": "slide_06.png",
-        "size_kb": 313.1,
+        "size_kb": 329.1,
         "slide_vision_score": 92,
         "thumb_stop_rating": "EXCELLENT",
         "contrast_ratio": "14.2:1 (AAA Pass)",

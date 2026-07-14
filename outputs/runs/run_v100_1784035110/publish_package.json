@@ -1,25 +1,25 @@
 {
   "version": "v100.0_masterpiece_god_tier",
-  "run_id": "run_v100_1784035113",
-  "topic": "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026",
+  "run_id": "run_v100_1784035110",
+  "topic": "How to Design Idempotent Microservice Boundaries",
   "archetype_used": "cyber_dark",
   "winner_hook": {
     "id": 1,
     "axis": "CONTRARIAN_MYTHBUSTER",
-    "hook": "Apache Kafka vs RabbitMQ: Which Event Stream Should You Pick in 2026 is Broken in Production.",
+    "hook": "How to Design Idempotent Microservice Boundaries is Broken in Production.",
     "subtitle": "Why 80% of engineers struggle with Day-2 operations—and the exact 4-step blueprint to fix it.",
-    "score": 87,
+    "score": 92,
     "reasoning": "Maximized curiosity gap and specific metrics under 85 characters (CONTRARIAN_MYTHBUSTER)"
   },
   "slide_count": 6,
-  "total_time_s": 1.1,
+  "total_time_s": 1.09,
   "critic_score": 8.0,
   "vision_score": 93.0,
   "verdict": "STRONG",
   "caption": "",
   "hashtags": [],
   "omni_assets": {
-    "linkedin_pdf": "apache_kafka_vs_rabbitmq:_which_eve_carousel.pdf",
+    "linkedin_pdf": "how_to_design_idempotent_microservi_carousel.pdf",
     "article_md": "article.md"
   },
   "slide_files": [
