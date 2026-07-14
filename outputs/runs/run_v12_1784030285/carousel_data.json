@@ -1,0 +1,110 @@
+{
+  "topic": "Why AI Agents Are Replacing Standard SaaS in 2026",
+  "topic_dna": {
+    "topic": "Why AI Agents Are Replacing Standard SaaS in 2026",
+    "category": "ai_engineering",
+    "tone": "forward-looking, technical, and analytical",
+    "visual_metaphor": {
+      "core": "neural decision trees, autonomous loop circuits, and dynamic data matrices",
+      "elements": [
+        "synapse nodes",
+        "feedback loops",
+        "vector arrays",
+        "agent pipelines"
+      ]
+    },
+    "color_language": {
+      "background": "#0F0F13",
+      "primary": "#00E5CC",
+      "accent": "#FF4B4B",
+      "text": "#FFFFFF",
+      "subtext": "#B0B0B0"
+    },
+    "key_insight": "Autonomous systems require robust control loops, not just raw model intelligence."
+  },
+  "slides": [
+    {
+      "layout": "hero",
+      "narrative_role": "hook",
+      "eyebrow": "WHY AI AGENTS ARE REPLACING ST",
+      "headline_top": "WHY",
+      "headline_accent": "AI AGENTS",
+      "subtitle": "A deep technical breakdown of Why AI Agents Are Replacing Standard SaaS in 2026."
+    },
+    {
+      "layout": "concept_deepdive",
+      "narrative_role": "tl_dr",
+      "eyebrow": "WHY AI AGENTS ARE REPLACING ST",
+      "headline": "Core Concept",
+      "headline_accent": "Tl Dr",
+      "box1_title": "The Concept",
+      "box1_body": "Understanding the fundamental mechanics behind Why AI Agents Are Replacing Standard SaaS in 2026 and why it matters.",
+      "box2_title": "Performance",
+      "box2_body": "How this architecture impacts scalability, speed, and overall system efficiency.",
+      "box3_title": "Constraints",
+      "box3_body": "Every technical choice comes with trade-offs. Knowing when not to use it is key."
+    },
+    {
+      "layout": "process_detail",
+      "narrative_role": "deep_dive_1",
+      "eyebrow": "WHY AI AGENTS ARE REPLACING ST",
+      "headline": "Core Concept",
+      "headline_accent": "Deep Dive 1",
+      "box1_title": "The Concept",
+      "box1_body": "Understanding the fundamental mechanics behind Why AI Agents Are Replacing Standard SaaS in 2026 and why it matters.",
+      "box2_title": "Performance",
+      "box2_body": "How this architecture impacts scalability, speed, and overall system efficiency.",
+      "box3_title": "Constraints",
+      "box3_body": "Every technical choice comes with trade-offs. Knowing when not to use it is key."
+    },
+    {
+      "layout": "concept_deepdive",
+      "narrative_role": "deep_dive_2",
+      "eyebrow": "WHY AI AGENTS ARE REPLACING ST",
+      "headline": "Core Concept",
+      "headline_accent": "Deep Dive 2",
+      "box1_title": "The Concept",
+      "box1_body": "Understanding the fundamental mechanics behind Why AI Agents Are Replacing Standard SaaS in 2026 and why it matters.",
+      "box2_title": "Performance",
+      "box2_body": "How this architecture impacts scalability, speed, and overall system efficiency.",
+      "box3_title": "Constraints",
+      "box3_body": "Every technical choice comes with trade-offs. Knowing when not to use it is key."
+    },
+    {
+      "layout": "process_detail",
+      "narrative_role": "application",
+      "eyebrow": "WHY AI AGENTS ARE REPLACING ST",
+      "headline": "Core Concept",
+      "headline_accent": "Application",
+      "box1_title": "The Concept",
+      "box1_body": "Understanding the fundamental mechanics behind Why AI Agents Are Replacing Standard SaaS in 2026 and why it matters.",
+      "box2_title": "Performance",
+      "box2_body": "How this architecture impacts scalability, speed, and overall system efficiency.",
+      "box3_title": "Constraints",
+      "box3_body": "Every technical choice comes with trade-offs. Knowing when not to use it is key."
+    },
+    {
+      "layout": "outro",
+      "narrative_role": "cta",
+      "eyebrow": "The Bottom Line",
+      "headline": "Key Insight",
+      "headline_accent": "Here.",
+      "items": [
+        {
+          "text": "Bookmark this — <strong>you'll reference it.</strong>"
+        }
+      ],
+      "cta_text": "Save this post.",
+      "cta_highlight": "You'll need these insights for your next project.",
+      "cta_icon": "📌"
+    }
+  ],
+  "slide_files": [
+    "slide_01.html",
+    "slide_02.html",
+    "slide_03.html",
+    "slide_04.html",
+    "slide_05.html",
+    "slide_06.html"
+  ]
+}

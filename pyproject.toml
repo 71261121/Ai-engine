@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-carousel-engine"
+version = "12.0.0"
+description = "V12 Masterpiece AI Carousel Generation & Critique Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Sufiyan Reza", email = "razasufyan332@gmail.com"}
+]
+keywords = ["ai", "agents", "carousel", "instagram", "linkedin", "litellm"]
+dependencies = [
+    "litellm>=1.0.0",
+    "pyyaml>=6.0"
+]
+
+[project.scripts]
+ai-carousel-v12 = "scripts.run_v12:main"
+ai-carousel-v10 = "scripts.run_v10_prod:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "scripts*"]

@@ -1,0 +1,104 @@
+{
+  "version": "v100.0_masterpiece_god_tier",
+  "run_id": "run_v100_1784032589",
+  "topic": "Why AI Agents Are Replacing Standard SaaS in 2026",
+  "archetype_used": "cyber_dark",
+  "winner_hook": {
+    "id": 1,
+    "axis": "CONTRARIAN_MYTHBUSTER",
+    "hook": "Why AI Agents Are Replacing Standard SaaS in 2026 is Broken in Production.",
+    "subtitle": "Why 80% of engineers struggle with Day-2 operations—and the exact 4-step blueprint to fix it.",
+    "score": 92,
+    "reasoning": "Maximized curiosity gap and specific metrics under 85 characters (CONTRARIAN_MYTHBUSTER)"
+  },
+  "slide_count": 6,
+  "total_time_s": 3.82,
+  "critic_score": 8.0,
+  "vision_score": 93.0,
+  "verdict": "STRONG",
+  "caption": "",
+  "hashtags": [],
+  "omni_assets": {
+    "linkedin_pdf": "why_ai_agents_are_replacing_standar_carousel.pdf",
+    "article_md": "article.md"
+  },
+  "slide_files": [
+    "slide_01.html",
+    "slide_02.html",
+    "slide_03.html",
+    "slide_04.html",
+    "slide_05.html",
+    "slide_06.html"
+  ],
+  "png_files": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png",
+    "slide_05.png",
+    "slide_06.png"
+  ],
+  "vision_report": {
+    "overall_vision_score": 93.0,
+    "verdict": "GOD_LEVEL_MASTERPIECE",
+    "mobile_legibility_passed": true,
+    "wcag_contrast_passed": true,
+    "slide_reports": [
+      {
+        "slide_num": 1,
+        "file": "slide_01.png",
+        "size_kb": 134.8,
+        "slide_vision_score": 98,
+        "thumb_stop_rating": "EXCELLENT",
+        "contrast_ratio": "14.2:1 (AAA Pass)",
+        "clipping_detected": false
+      },
+      {
+        "slide_num": 2,
+        "file": "slide_02.png",
+        "size_kb": 129.7,
+        "slide_vision_score": 92,
+        "thumb_stop_rating": "EXCELLENT",
+        "contrast_ratio": "14.2:1 (AAA Pass)",
+        "clipping_detected": false
+      },
+      {
+        "slide_num": 3,
+        "file": "slide_03.png",
+        "size_kb": 41.0,
+        "slide_vision_score": 92,
+        "thumb_stop_rating": "EXCELLENT",
+        "contrast_ratio": "14.2:1 (AAA Pass)",
+        "clipping_detected": false
+      },
+      {
+        "slide_num": 4,
+        "file": "slide_04.png",
+        "size_kb": 41.0,
+        "slide_vision_score": 92,
+        "thumb_stop_rating": "EXCELLENT",
+        "contrast_ratio": "14.2:1 (AAA Pass)",
+        "clipping_detected": false
+      },
+      {
+        "slide_num": 5,
+        "file": "slide_05.png",
+        "size_kb": 174.4,
+        "slide_vision_score": 92,
+        "thumb_stop_rating": "EXCELLENT",
+        "contrast_ratio": "14.2:1 (AAA Pass)",
+        "clipping_detected": false
+      },
+      {
+        "slide_num": 6,
+        "file": "slide_06.png",
+        "size_kb": 105.6,
+        "slide_vision_score": 92,
+        "thumb_stop_rating": "EXCELLENT",
+        "contrast_ratio": "14.2:1 (AAA Pass)",
+        "clipping_detected": false
+      }
+    ],
+    "recommendation": "Visual hierarchy is razor sharp. Card contrast and margins pass 3-second scan test."
+  }
+}
